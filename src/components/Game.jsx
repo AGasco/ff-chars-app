@@ -3,17 +3,29 @@ import "./../styles/Game.css";
 
 class Game extends Component {
   state = {
-    title: "",
-    releaseDate: "",
-    platforms: [],
-    synopsis: "",
-    link: "",
+    isOpen: false,
+    data: {
+      title: "",
+      releaseDate: "",
+      platforms: [],
+      synopsis: "",
+      link: "",
+    },
+  };
+
+  handleClick = () => {
+    this.props.onSelect();
+    this.setState({ isOpen: true });
+    setTimeout(() => this.setState({ isOpen: false }), 500);
   };
 
   render() {
     const { title, logo } = this.props.data;
     return (
-      <div className="game hvr-ripple-out">
+      <div
+        className={`game hvr-ripple-out ${this.state.isOpen && "game__back"}`}
+        onClick={this.handleClick}
+      >
         <img
           id={this.props.id}
           className="game__logo"
