@@ -1,0 +1,20 @@
+{
+  "games": [
+    { "title": "FFI", "logo": "/imgs/logos/FFI.jpg" },
+    { "title": "FFII", "logo": "/imgs/logos/FFII.jpg" },
+    { "title": "FFIII", "logo": "/imgs/logos/FFIII.jpg" },
+    { "title": "FFIV", "logo": "/imgs/logos/FFIV.jpg" },
+    { "title": "FFV", "logo": "/imgs/logos/FFV.jpg" },
+    { "title": "FFVI", "logo": "/imgs/logos/FFVI.jpg" },
+    { "title": "FFVII", "logo": "/imgs/logos/FFVII.jpg" },
+    { "title": "FFVIII", "logo": "/imgs/logos/FFVIII.jpg" },
+    { "title": "FFIX", "logo": "/imgs/logos/FFIX.jpg" },
+    { "title": "FFX", "logo": "/imgs/logos/FFX.jpg" },
+    { "title": "FFXI", "logo": "/imgs/logos/FFXI.jpg" },
+    { "title": "FFXII", "logo": "/imgs/logos/FFXII.jpg" },
+    { "title": "FFXIII", "logo": "/imgs/logos/FFXIII.jpg" },
+    { "title": "FFXIV", "logo": "/imgs/logos/FFXIV.jpg" },
+    { "title": "FFXV", "logo": "/imgs/logos/FFXV.jpg" },
+    { "title": "FFXVI", "logo": "/imgs/logos/FFXVI.png" }
+  ]
+}

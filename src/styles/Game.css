@@ -1,0 +1,145 @@
+.game {
+    background-color: white;
+    width: max-content;
+    /* padding: 5px; */
+    margin: 0.5vh;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.game:hover {
+    transform: scale(1.05);
+    background-color: #202020;
+    color: white;
+}
+
+.game__logo {
+    object-fit: cover;
+    height: 20vh;
+    width: 10vw;
+}
+
+.game__title {
+    text-align: center;
+    padding: 10px;
+}
+
+#FFI {
+    object-position: 90%;
+}
+
+#FFIII {
+    object-fit: none;
+    object-position: 40% 40%;
+}
+
+#FFIV {
+    object-fit: none;
+    object-position: 40% 10%;
+}
+
+#FFVI {
+    object-fit: none;
+    object-position: 35% 5%;
+}
+
+#FFVII {
+    object-fit: none;
+    object-position: 30% 8%;
+}
+
+#FFIX {
+    object-fit: none;
+    object-position: 40% 20%;
+}
+
+#FFX {
+    object-fit: none;
+    object-position: 28% 8%;
+}
+
+#FFXI {
+    object-fit: none;
+    object-position: 50% 15%;
+}
+
+#FFXII {
+    object-fit: none;
+    object-position: 42% 55%;
+}
+
+#FFXIII {
+    object-fit: none;
+    object-position: 45% 30%;
+}
+
+#FFXIV {
+    object-fit: none;
+    object-position: 42% 32%;
+}
+
+#FFXV {
+    object-fit: none;
+    object-position: 80% 15%;
+}
+
+#FFXVI {
+    object-fit: none;
+    object-position: 45% 15%;
+}
+
+@-webkit-keyframes hvr-ripple-out {
+    0% {
+        border: #ECF3FF solid 3px;
+    }
+    100% {
+        border: #ECF3FF solid 2px;
+        top: -12px;
+        right: -12px;
+        bottom: -12px;
+        left: -12px;
+        opacity: 0;
+    }
+}
+
+@keyframes hvr-ripple-out {
+    0% {
+        border: #ECF3FF solid 3px;
+    }
+    100% {
+        border: #ECF3FF solid 2px;
+        top: -12px;
+        right: -12px;
+        bottom: -12px;
+        left: -12px;
+        opacity: 0;
+    }
+}
+
+.hvr-ripple-out {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+}
+
+.hvr-ripple-out:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0;
+    z-index: 100;
+}
+
+.hvr-ripple-out:hover:before, .hvr-ripple-out:focus:before, .hvr-ripple-out:active:before {
+    -webkit-animation-name: hvr-ripple-out;
+    animation-name: hvr-ripple-out;
+}
