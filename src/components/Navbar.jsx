@@ -9,7 +9,7 @@ class Navbar extends Component {
       <div className="navbar">
         <ul>
           <li>
-            <Link to="/">Games</Link>
+            <Link to="/games">Games</Link>
           </li>
           <li>
             <Link to="/">Gallery</Link>
