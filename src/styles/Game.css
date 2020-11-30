@@ -24,6 +24,10 @@
     padding: 10px;
 }
 
+.game__back {
+    pointer-events: none;
+}
+
 #FFI {
     object-position: 90%;
 }
@@ -126,7 +130,7 @@
 }
 
 .hvr-ripple-out:hover {
-    z-index: 100;
+    z-index: 1;
 }
 
 .hvr-ripple-out:before {
