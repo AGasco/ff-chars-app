@@ -1,4 +1,6 @@
 import Games from "./components/Games";
+import Navbar from "./components/Navbar";
+import { Switch, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
@@ -13,7 +15,12 @@ function App() {
         />
       </div>
 
+      <Navbar />
+
       <div className="app__container">
+        {/* <Switch>
+          <Route path="/games" component={Games} />
+        </Switch> */}
         <Games />
       </div>
     </div>
