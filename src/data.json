@@ -3,98 +3,98 @@
     {
       "title": "FFI",
       "logo": "/imgs/logos/FFI.jpg",
-      "modalLogo": "/imgs/modals/logos/ff1Logo.png",
-      "modal_bg": "/imgs/modals/bgs/ff1_bg.png"
+      "modal_logo": "/imgs/modals/logos/ff1-logo.png",
+      "modal_bg": "/imgs/modals/bgs/ff1-bg.png"
     },
     {
       "title": "FFII",
       "logo": "/imgs/logos/FFII.jpg",
-      "modalLogo": "/imgs/modals/logos/ff2Logo.png",
-      "modal_bg": "/imgs/modals/bgs/ff2_bg.png"
+      "modal_logo": "/imgs/modals/logos/ff2-logo.png",
+      "modal_bg": "/imgs/modals/bgs/ff2-bg.png"
     },
     {
       "title": "FFIII",
       "logo": "/imgs/logos/FFIII.jpg",
-      "modalLogo": "/imgs/modals/logos/ff3Logo.jpg",
-      "modal_bg": "/imgs/modals/bgs/ff3_bg.png"
+      "modal_logo": "/imgs/modals/logos/ff3-logo.jpg",
+      "modal_bg": "/imgs/modals/bgs/ff3-bg.png"
     },
     {
       "title": "FFIV",
       "logo": "/imgs/logos/FFIV.jpg",
-      "modalLogo": "/imgs/modals/logos/ff4Logo.png",
-      "modal_bg": "/imgs/modals/bgs/ff4_bg.png"
+      "modal_logo": "/imgs/modals/logos/ff4-logo.png",
+      "modal_bg": "/imgs/modals/bgs/ff4-bg.png"
     },
     {
       "title": "FFV",
       "logo": "/imgs/logos/FFV.jpg",
-      "modalLogo": "/imgs/modals/logos/ff5Logo.jpg",
-      "modal_bg": "/imgs/modals/bgs/ff5_bg.png"
+      "modal_logo": "/imgs/modals/logos/ff5-logo.jpg",
+      "modal_bg": "/imgs/modals/bgs/ff5-bg.png"
     },
     {
       "title": "FFVI",
       "logo": "/imgs/logos/FFVI.jpg",
-      "modalLogo": "/imgs/modals/logos/ff6Logo.jpg",
-      "modal_bg": "/imgs/modals/bgs/ff6_bg.png"
+      "modal_logo": "/imgs/modals/logos/ff6-logo.jpg",
+      "modal_bg": "/imgs/modals/bgs/ff6-bg.png"
     },
     {
       "title": "FFVII",
       "logo": "/imgs/logos/FFVII.jpg",
-      "modalLogo": "/imgs/modals/logos/ff7Logo.png",
-      "modal_bg": "/imgs/modals/bgs/ff7_bg.jpg"
+      "modal_logo": "/imgs/modals/logos/ff7-logo.png",
+      "modal_bg": "/imgs/modals/bgs/ff7-bg.jpg"
     },
     {
       "title": "FFVIII",
       "logo": "/imgs/logos/FFVIII.jpg",
-      "modalLogo": "/imgs/modals/logos/ff8Logo.jpg",
-      "modal_bg": "/imgs/modals/bgs/ff8_bg.jpg"
+      "modal_logo": "/imgs/modals/logos/ff8-logo.jpg",
+      "modal_bg": "/imgs/modals/bgs/ff8-bg.jpg"
     },
     {
       "title": "FFIX",
       "logo": "/imgs/logos/FFIX.jpg",
-      "modalLogo": "/imgs/modals/logos/ff9Logo.jpg",
-      "modal_bg": "/imgs/modals/bgs/ff9_bg.jpg"
+      "modal_logo": "/imgs/modals/logos/ff9-logo.jpg",
+      "modal_bg": "/imgs/modals/bgs/ff9-bg.jpg"
     },
     {
       "title": "FFX",
       "logo": "/imgs/logos/FFX.jpg",
-      "modalLogo": "/imgs/modals/logos/ff10Logo.jpg",
-      "modal_bg": "/imgs/modals/bgs/ff10_bg.jpg"
+      "modal_logo": "/imgs/modals/logos/ff10-logo.jpg",
+      "modal_bg": "/imgs/modals/bgs/ff10-bg.jpg"
     },
     {
       "title": "FFXI",
       "logo": "/imgs/logos/FFXI.jpg",
-      "modalLogo": "/imgs/modals/logos/ff11Logo.png",
-      "modal_bg": "/imgs/modals/bgs/ff11_bg.jpg"
+      "modal_logo": "/imgs/modals/logos/ff11-logo.png",
+      "modal_bg": "/imgs/modals/bgs/ff11-bg.jpg"
     },
     {
       "title": "FFXII",
       "logo": "/imgs/logos/FFXII.jpg",
-      "modalLogo": "/imgs/modals/logos/ff12Logo.png",
-      "modal_bg": "/imgs/modals/bgs/ff12_bg.jpg"
+      "modal_logo": "/imgs/modals/logos/ff12-logo.png",
+      "modal_bg": "/imgs/modals/bgs/ff12-bg.jpg"
     },
     {
       "title": "FFXIII",
       "logo": "/imgs/logos/FFXIII.jpg",
-      "modalLogo": "/imgs/modals/logos/ff13Logo.jpg",
-      "modal_bg": "/imgs/modals/bgs/ff13_bg.png"
+      "modal_logo": "/imgs/modals/logos/ff13-logo.jpg",
+      "modal_bg": "/imgs/modals/bgs/ff13-bg.png"
     },
     {
       "title": "FFXIV",
       "logo": "/imgs/logos/FFXIV.jpg",
-      "modalLogo": "/imgs/modals/logos/ff14Logo.png",
-      "modal_bg": "/imgs/modals/bgs/ff14_bg.jpg"
+      "modal_logo": "/imgs/modals/logos/ff14-logo.png",
+      "modal_bg": "/imgs/modals/bgs/ff14-bg.jpg"
     },
     {
       "title": "FFXV",
       "logo": "/imgs/logos/FFXV.jpg",
-      "modalLogo": "/imgs/modals/logos/ff15Logo.png",
-      "modal_bg": "/imgs/modals/bgs/ff15_bg.jpg"
+      "modal_logo": "/imgs/modals/logos/ff15-logo.png",
+      "modal_bg": "/imgs/modals/bgs/ff15-bg.jpg"
     },
     {
       "title": "FFXVI",
       "logo": "/imgs/logos/FFXVI.png",
-      "modalLogo": "/imgs/modals/logos/ff16Logo.png",
-      "modal_bg": "/imgs/modals/bgs/ff16_bg.png"
+      "modal_logo": "/imgs/modals/logos/ff16-logo.png",
+      "modal_bg": "/imgs/modals/bgs/ff16-bg.png"
     }
   ]
 }

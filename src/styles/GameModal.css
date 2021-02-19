@@ -2,6 +2,8 @@
   z-index: 100;
   position: relative;
   display: flex;
+  padding: 0 !important;
+  overflow: hidden !important;
 }
 
 .gameModal__left {
@@ -9,6 +11,8 @@
   border-right: 1px solid #bbb;
   display: flex;
   flex-direction: column;
+  min-width: 400px;
+  max-width: 401px;
 }
 
 .gameModal__leftTop {
@@ -27,4 +31,41 @@
   position: absolute;
   top: 3vh;
   right: 2vw;
+}
+
+/* Specific settings for each game's modal logo */
+.gameModal__logo {
+  float: left;
+  max-width: 400px;
+  height: 300px;
+  object-fit: contain;
+  padding: 0 20px;
+}
+
+.FFII__logo {
+  width: 600px;
+}
+
+/* Specific settings for each game's modal background */
+.gameModal__bg > img {
+  max-width: 100%;
+  position: absolute;
+  opacity: 0.4;
+}
+
+.FFI__bg > img {
+  width: 800px;
+  bottom: 0;
+  right: -150px;
+}
+
+.FFII__bg > img {
+  width: 900px;
+  bottom: 0;
+  right: -300px;
+}
+
+.FFVIII__bg > img {
+  bottom: -300px;
+  right: -600px;
 }

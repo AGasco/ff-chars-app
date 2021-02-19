@@ -32,12 +32,18 @@ class GameModal extends Component {
         <Modal isOpen={this.state.open}>
           <div className="gameModal__left">
             <div className="gameModal__leftTop">
-              <img src={data.modalLogo} alt={data.title + "'s logo"} />
+              <img
+                className={`gameModal__logo ${data.title}__logo`}
+                src={data.modal_logo}
+                alt={data.title + "'s logo"}
+              />
             </div>
             <div className="gameModal__leftBottom"></div>
           </div>
           <div className="gameModal__right">
-            <img src={data.modal_bg} alt={data.title + "'s logo"} />
+            <div className={`gameModal__bg ${data.title}__bg`}>
+              <img src={data.modal_bg} alt={data.title + "'s concept art"} />
+            </div>
           </div>
           <button
             className="gameModal__closeBtn"
