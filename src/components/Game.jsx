@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./../styles/Game.css";
 
 class Game extends Component {
   state = {

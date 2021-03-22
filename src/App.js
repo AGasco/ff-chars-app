@@ -1,7 +1,6 @@
 import Games from "./components/Games";
 import Navbar from "./components/Navbar";
 import { Switch, Route, Link } from "react-router-dom";
-import "./App.css";
 
 function App() {
   return (
