@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Modal from "react-modal";
-import "./../styles/GameModal.css";
 
 class GameModal extends Component {
   state = {

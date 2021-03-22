@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Game from "./Game";
 import GameModal from "./GameModal";
 import data from "./../data.json";
-import "./../styles/Games.css";
 
 class Games extends Component {
   state = {
